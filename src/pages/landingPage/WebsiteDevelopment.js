@@ -338,8 +338,7 @@ export default function WebsiteDevelopment() {
               <div className="price-top-wrap basic p-2">
                 <p className="package"><strong>Best for:</strong> Small business</p>
                 <div className="d-flex align-item-center justify-content-between">
-                  <h4 className="title">Basic  Plan:</h4>
-                  <h3>₹10k</h3>
+                  <h4 className="title">STATIC WEBSITE</h4>
                 </div>
               </div>
 
@@ -348,33 +347,16 @@ export default function WebsiteDevelopment() {
               <ul className="lend-price-feature-list basic py-3">
                 <li className="active">
                   <i className="fa-regular fa-circle-check me-2  "></i>
-                  1-5 Page Website 
+                  upto 10 pages 
                 </li>
                 <li className="active">
                   <i className="fa-regular fa-circle-check me-2  "></i>
                   Web Hosting Support 
-                </li>
-                <li className="active">
-                  <i className="fa-regular fa-circle-check me-2  "></i>
-                  Free Theme
-                </li>
+                </li> 
                 <li className="active">
                   <i className="fa-regular fa-circle-check me-2  "></i>
                   Complete Responsive
-                </li>
-                <li className="inactive">
-                  <i className="fa-regular fa-circle-check me-2  "></i>
-                  Also CMS available
-                </li>
-
-                <li className="inactive">
-                  <i className="fa-regular fa-circle-check me-2  "></i>
-                  Contact Form
-                </li>
-                <li className="inactive">
-                  <i className="fa-regular fa-circle-check me-2  "></i>
-                  Google Map
-                </li>
+                </li> 
                 <li className="inactive">
                   <i className="fa-regular fa-circle-check me-2  "></i>
                   Speed Optimization
@@ -405,8 +387,7 @@ export default function WebsiteDevelopment() {
               <div className="price-top-wrap standard p-2">
                 <p className="package"><strong>Best for:</strong> Growing Business</p>
                 <div className="d-flex align-item-center justify-content-between">
-                  <h4 className="title">Standard Plan: </h4>
-                  <h3>₹20k</h3>
+                  <h4 className="title">DYNAMIC WEBSITE  </h4> 
                 </div>
               </div> 
 
@@ -415,34 +396,16 @@ export default function WebsiteDevelopment() {
               <ul className="lend-price-feature-list standard py-3">
                 <li className="active">
                   <i className="fa-regular fa-circle-check me-2  "></i>
-                  5–10 Page Website
+                  upto 25 pages
                 </li>
                 <li className="active">
                   <i className="fa-regular fa-circle-check me-2  "></i>
                   Web Hosting Support 
-                </li>
-                <li className="active">
-                  <i className="fa-regular fa-circle-check me-2  "></i>
-                  Free Theme
-                </li>
+                </li> 
                 <li className="active">
                   <i className="fa-regular fa-circle-check me-2  "></i>
                   Complete Responsive
-                </li>
-                <li className="active">
-                  <i className="fa-regular fa-circle-check me-2  "></i>
-                  Also CMS available
-                </li>
-
-                <li className="inactive">
-                  <i className="fa-regular fa-circle-check me-2  "></i>
-                  Contact Form / Newsletter Form
-                </li>
-
-                <li className="inactive">
-                  <i className="fa-regular fa-circle-check me-2  "></i>
-                  Google Map
-                </li>
+                </li>  
 
                 <li className="inactive">
                   <i className="fa-regular fa-circle-check me-2 "></i>
@@ -476,8 +439,7 @@ export default function WebsiteDevelopment() {
               <div className="price-top-wrap premium p-2">
                 <p className="package"><strong>Best for:</strong> Brands focused</p>
                 <div className="d-flex align-item-center justify-content-between">
-                  <h4 className="title">Premium Plan:</h4>
-                  <h3>₹30k</h3>
+                  <h4 className="title">E-COMMERCE PORTAL</h4> 
                 </div>
               </div> 
               <hr />
@@ -485,34 +447,16 @@ export default function WebsiteDevelopment() {
               <ul className="lend-price-feature-list premium py-3">
                 <li className="active">
                   <i className="fa-regular fa-circle-check me-2 "></i>
-                  More 10 Page Website
+                  upto 100 pages
                 </li>
                 <li className="active">
                   <i className="fa-regular fa-circle-check me-2  "></i>
                   Web Hosting Support 
-                </li>
-                <li className="active">
-                  <i className="fa-regular fa-circle-check me-2 "></i>
-                  Free Theme
-                </li>
+                </li> 
                 <li className="active">
                   <i className="fa-regular fa-circle-check me-2 "></i>
                   Complete Responsive
-                </li>
-                <li className="active">
-                  <i className="fa-regular fa-circle-check me-2 "></i>
-                  Also CMS available
-                </li>
-
-                <li className="active">
-                  <i className="fa-regular fa-circle-check me-2 "></i>
-                  Contact Form / Newsletter Form
-                </li>
-
-                <li className="inactive">
-                  <i className="fa-regular fa-circle-check me-2 "></i>
-                  Google Map / WhatsApp Connection
-                </li>
+                </li> 
 
                 <li className="inactive">
                   <i className="fa-regular fa-circle-check me-2 "></i>
