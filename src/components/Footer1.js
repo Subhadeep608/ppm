@@ -76,7 +76,7 @@ export default function Footer() {
                 <span className='footer-icon'><i className="fa-solid fa-phone"></i></span>
                 <div className='footer-icon-info'>
                   <span>Call Now</span>
-                  <a href='tel:+917836917667' className='mt-2'>+91 78369 17667</a>
+                  <a href='tel:+919818998499' className='mt-2'>+91 98189 98499</a>
                 </div>
               </div>
 

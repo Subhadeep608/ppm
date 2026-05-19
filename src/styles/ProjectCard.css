@@ -16,7 +16,7 @@
     transform: translate(-50%, -50%) scale(1);
 }
 .ProjectCard-holder:hover .ProjectCard-content{
-    transform: translateX(-50%) translateY(0%);
+    transform: translateX(-50%) translateY(20%);
 }
 .ProjectCard-thumbnail-icon{
     position: absolute;
@@ -40,15 +40,24 @@
     bottom: 40px;
     background: #fff;
     border-radius: 5px;
-    padding: 30px 40px;
+    padding: 15px 20px;
     left: 50%;
     transform: translateX(-50%) translateY(134%);
     width: 85%;
     overflow: hidden;
     transition: 0.8s;
 }
-.ProjectCard-content .ProjectCard-content-wrap{
+.ProjectCard-content .ProjectCard-content-wrap {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ProjectCard-content-wrap h5{
+    color: var(--primary-color);
+}
+.ProjectCard-content-wrap a span:hover{
+    color: var(--primary-color);
 }
 .ProjectCard-content-wrap span{
     font-size: 16px;

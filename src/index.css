@@ -298,6 +298,63 @@ textarea:focus {
   /* color: #F64A00; */
 }
 
+/* Project Section  */
+.project-card img {
+    height: 100%;
+    width: 230px;
+    max-width: 100%;
+}
+.project-card .highlight {
+    background: var(--primary-color);
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive code of Home Page  */
 
 @media (min-width: 1400px) {

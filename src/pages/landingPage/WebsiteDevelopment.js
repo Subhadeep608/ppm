@@ -1,6 +1,8 @@
 import SEO from '../../components/SEO';
 import HeroLendingPage from './HeroLendingPage';
 import ButtonComponent from "../../components/button";
+import ProjectSection from '../../pages/home/ProjectSection.js';
+
 
 import '../../styles/lendingpage.css';
 import InquaryForm from '../../components/InquaryForm';
@@ -19,6 +21,7 @@ export default function WebsiteDevelopment() {
     // { icon: "/media/icons/mysql1.png", percentage: "100%", title: "React" },
   ];
 
+  
   return (
     <>
       {/* Meta Start */}
@@ -318,6 +321,9 @@ export default function WebsiteDevelopment() {
         </div>
       </section>
 
+      {/* Project Section */}
+      <ProjectSection />
+
       {/* Price Col  */}
       <section className='price-section py-5'>
         <div className='container'>
@@ -534,13 +540,6 @@ export default function WebsiteDevelopment() {
               <ButtonComponent name={"GET OFFER"} path={"/contact  "} className={'premium-palan-btn'} />
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* work flow-section  */}
-      <section className='workflow-sec py-lg-5 py-sm-3'>
-        <div className='container'>
-          <div className='row'></div>
         </div>
       </section>
 
