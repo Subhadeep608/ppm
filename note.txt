@@ -1,0 +1,19 @@
+#) Backend 
+-------------------
+1. npm install express mongoose cors dotenv nodemailer
+
+#) Go to 👉 https://console.firebase.google.com
+-----------------------------------------------------------
+-   Project Name: PPM-Infotech
+-   ppm-frontend
+- npm install firebase
+- src/firebase/config.js
+- Now add ONLY this clean version
+- Replace YOUR_API_KEY with your real API key.
+- Enable Authentication  Build → Authentication → Get Started → Enable Email/Password
+- Create Firestore      Build → Firestore → Create Database → Test Mode
+
+
+
+mail_id: info@ppminfotech.com
+mail_psw: OcEXdAdw(DWl

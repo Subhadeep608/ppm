@@ -49,6 +49,9 @@ export default function Footer() {
               <li className='nav-item '><NavLink to="/service" className='nav-link'>
                 <i className="fa-solid fa-angle-right"></i> Services</NavLink>
               </li>
+              <li className="nav-item"><NavLink to="/blog" className="nav-link" >
+                <i className="fa-solid fa-angle-right"></i>  Blog</NavLink>
+              </li>
               <li className='nav-item '><NavLink to="/website-development" className='nav-link'>
                 <i className="fa-solid fa-angle-right"></i> Website Development</NavLink>
               </li>

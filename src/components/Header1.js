@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import "../styles/header.css";
 
@@ -19,7 +19,7 @@ function Header() {
                 Contact Us →
               </Link>
             </div>
-            
+
             <div className='col-lg-6 col-md-6 col-12 rgt-action-bar text-end'>
               <a href="mailto:info@ppminfotech.com" className="me-4">
                 <i className="fa-solid fa-envelope"></i> info@ppminfotech.com
@@ -34,7 +34,7 @@ function Header() {
 
             {/* logo  */}
             <Link className="navbar-brand" to="/">
-              <img src='/media/images/ppm infotech svg.svg' alt='header-logo' loading="lazy"/>
+              <img src='/media/images/ppm infotech svg.svg' alt='header-logo' loading="lazy" />
             </Link>
 
             {/* Menu  */}
@@ -48,11 +48,44 @@ function Header() {
               {/* Menu   */}
               <div className="collapse navbar-collapse " id="navbarMenu">
                 <ul className="navbar-nav mx-auto">
-                  <li className="nav-item"><NavLink to="/" end className="nav-link" href="#">Home</NavLink></li>
-                  <li className="nav-item"><NavLink to="/about" className="nav-link" href="#">About</NavLink></li>
-                  <li className="nav-item"><NavLink to="/service" className="nav-link" href="#">Services</NavLink></li>
-                  <li className="nav-item"><NavLink to="/blog" className="nav-link" href="#">Blog</NavLink></li>
-                  <li className="nav-item"><NavLink to="/contact" className="nav-link" href="#">Contact</NavLink></li>
+                  <li className="nav-item"><NavLink to="/" end className="nav-link">Home</NavLink></li>
+                  <li className="nav-item"><NavLink to="/about" className="nav-link">About</NavLink></li>
+                  <li className="nav-item"><NavLink to="/service" className="nav-link" >Services</NavLink></li> 
+                  <li className="nav-item dropdown ppm-menu-drpdn">
+                    <span
+                      className="nav-link dropdown-toggle" 
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Training
+                    </span>
+
+                    <ul className="dropdown-menu">
+                      <li>
+                        <a
+                          className="dropdown-item"
+                          href="https://ppminfotech.com/fullstack-development-course/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          FullStack Development Training Program
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          className="dropdown-item"
+                          href="https://ppminfotech.com/digital-marketing-course/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Digital Marketing Training Program
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="nav-item"><NavLink to="/contact" className="nav-link">Contact</NavLink></li>
                 </ul>
               </div>
             </div>
@@ -64,10 +97,10 @@ function Header() {
 
               {/* sidebar menu buttom  */}
               <button id="sidebar-menu-btn" className="sidebar-menu-btn ms-3 " onClick={() => setIsOpen(true)}>
-                <img className="menu-dark" src="/media/icons/menu-dark-icon.png" alt="Menu-icon" loading="lazy"/>
-                <img className="menu-light" src="/media/icons/menu-light-icon.png" alt="Menu-icon" loading="lazy"/>
+                <img className="menu-dark" src="/media/icons/menu-dark-icon.png" alt="Menu-icon" loading="lazy" />
+                <img className="menu-light" src="/media/icons/menu-light-icon.png" alt="Menu-icon" loading="lazy" />
               </button>
-              
+
             </div>
           </nav>
         </div>

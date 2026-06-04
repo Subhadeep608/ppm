@@ -7,6 +7,18 @@
 .action-bar {
   border-bottom: 1px solid #ddd;
 }
+.ppm-menu-drpdn .dropdown-menu {
+    background: #ffceb7;
+    padding: 0; 
+    gap: 0px;
+}
+.ppm-menu-drpdn .dropdown-menu li{
+  margin: 0;
+}
+.ppm-menu-drpdn .dropdown-menu .dropdown-item {
+    border: 1px dashed var(--primary-color);
+    padding: 10px;
+}
 
 .menu-holder {
   display: flex;
