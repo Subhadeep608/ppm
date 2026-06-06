@@ -69,7 +69,7 @@ function Header() {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          FullStack Development Training Program
+                          FullStack Development
                         </a>
                       </li>
 
@@ -80,7 +80,7 @@ function Header() {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          Digital Marketing Training Program
+                          Digital Marketing
                         </a>
                       </li>
                     </ul>
