@@ -1,6 +1,5 @@
-import React from 'react'
+import React from 'react';
 import { Link, useLocation } from "react-router-dom";
-
 
 export default function PageHeader() {
     const location = useLocation();
@@ -8,13 +7,20 @@ export default function PageHeader() {
     // Split URL path
     const pathnames = location.pathname.split("/").filter(x => x);
 
+    // Format slug into readable title
+    const formatTitle = (str) => {
+        return str
+            .replace(/-/g, " ")
+            .replace(/\b\w/g, (char) => char.toUpperCase());
+    };
+
     return (
         <div className="breadcrumb-section">
             <div className="container">
 
                 <h1 className="breadcrumb-title">
                     {pathnames.length > 0
-                        ? pathnames[pathnames.length - 1].replace("-", " ")
+                        ? formatTitle(pathnames[pathnames.length - 1])
                         : "Home"}
                 </h1>
 
@@ -30,10 +36,12 @@ export default function PageHeader() {
                                 {" / "}
                                 {isLast ? (
                                     <span className="active">
-                                        {value.replace("-", " ")}
+                                        {formatTitle(value)}
                                     </span>
                                 ) : (
-                                    <Link to={to}>{value.replace("-", " ")}</Link>
+                                    <Link to={to}>
+                                        {formatTitle(value)}
+                                    </Link>
                                 )}
                             </span>
                         );
@@ -42,5 +50,5 @@ export default function PageHeader() {
 
             </div>
         </div>
-    )
+    );
 }
